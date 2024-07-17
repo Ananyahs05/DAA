@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
-
+#include <windows.h>
 // Function declarations
 void quickSort(char arr[], int low, int high);
 int partition(char arr[], int low, int high);
@@ -21,6 +21,7 @@ int main() {
 
     int n = strlen(str);
     start = clock();
+    Sleep(200);
 
     // Perform Quick Sort on the string
     quickSort(str, 0, n - 1);
