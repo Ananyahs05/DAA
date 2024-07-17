@@ -42,7 +42,7 @@ int main() {
     // Output the result
     printf("%d raised to the power %d is: %lld\n", x, n, result);
     double total_time = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("THE TIME TAKEN TO SORT THIS ARRAY IS: %f seconds\n", total_time);
+    printf("THE TIME TAKEN: %f seconds\n", total_time);
 
     return 0;
 }
